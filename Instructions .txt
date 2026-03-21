@@ -1,0 +1,15 @@
+﻿Gold vs USD BI Dashboard Instructions
+
+
+1. Open Power BI Desktop (or Power BI web)
+2. Get Data -> CSV -> select gold_usd_bi_ready.csv
+3. Ensure columns are detected correctly:
+   - Date as Date
+   - Numbers as Decimal
+4. Create 4 Dashboard Pages:
+   Page 1: Executive Overview (KPIs, dual-axis line chart for Gold vs DXY)
+   Page 2: "Hug" Detector (Scatter plot Gold % vs DXY %, color by Regime_Flag)
+   Page 3: Regime Analysis (Bar chart: avg adjustment speed, line chart: rolling correlation)
+   Page 4: Investment Signals (Forecast line, bullet cards with business recommendations)
+5. Use built-in Power BI measures for aggregation
+6. Save project as .pbix file for upload/portfolio
